@@ -2,7 +2,7 @@
 
 下面我们使用[TicTacToe(井字棋)](http://zh.wikipedia.org/wiki/%E4%BA%95%E5%AD%97%E6%A3%8B)游戏来示范channel服务的使用方法：
 
-![game-screenshot](http://git.sae.sina.com.cn/chenfeng2/channel/blob/master/examples/python/screenshot.png)
+![game-screenshot](https://github.com/sinacloud/sae-channel-examples/raw/master/python/screenshot.png)
 
 **channel的创建和连接**
 
