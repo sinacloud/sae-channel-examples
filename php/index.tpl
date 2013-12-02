@@ -1,6 +1,6 @@
 <html>
   <head>
-      <script src='http://channel.sae.sina.com.cn:9999/api.js'></script>
+      <script src='http://channel.sinaapp.com/api.js'></script>
       <style type='text/css'>
         body {
           font-family: 'Helvetica';
