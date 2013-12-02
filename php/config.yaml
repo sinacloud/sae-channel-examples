@@ -1,0 +1,5 @@
+name: yourappname
+version: yourappversion
+handle:
+ - rewrite: if( path == "/opened" ) goto "/action.php?action=opened&%{query_string}"
+ - rewrite: if( path == "/move" ) goto "/action.php?action=move&%{query_string}"
