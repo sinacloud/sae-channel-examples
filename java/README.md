@@ -1,4 +1,4 @@
-Sina App Engine Java channel 服务使用范例，基于channel服务实现了一个WebSocket的九宫格游戏
+Sina App Engine Java channel 服务使用范例，基于channel服务实现了一个WebSocket的九宫格游戏(http://javachannel.sinaapp.com)
 
 
 
