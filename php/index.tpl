@@ -188,13 +188,8 @@
       }
       
       openChannel = function() {
-        //var token = '<?=$token?>';
-        //var uri = 'http://channel.sae.sina.com.cn:9999/' + token;
-        //var options = {
-        //    debug: true,
-        //    protocols_whitelist: [/*'websocket', */'xdr-streaming', 'xhr-streaming', 'iframe-eventsource', 'iframe-htmlfile', 'xdr-polling', 'xhr-polling', 'iframe-xhr-polling', 'jsonp-polling'],
-        //};
-        var socket = new WebSocket("<?=$token?>");
+        var socket = new sae.Channel("<?=$token?>");
+        //var socket = new WebSocket("<?=$token?>");
         socket.onopen = onOpened;
         socket.onmessage = onMessage;
       }
