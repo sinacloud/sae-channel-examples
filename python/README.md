@@ -17,7 +17,7 @@
 
     <head>
     ...
-    <script src="http://channel.sinaapp.com/api.js"></script>
+    <script src="/_sae/channel/api.js"></script>
     </head>
     <body>
       <script>
