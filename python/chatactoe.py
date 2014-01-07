@@ -168,7 +168,7 @@ class MainPage(tornado.web.RequestHandler):
 
     if game:
       url = channel.create_channel(user + game_key)
-      template_values = {'url': token,
+      template_values = {'url': url,
                          'me': user,
                          'game_key': game_key,
                          'game_link': game_link,
