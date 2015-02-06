@@ -8,7 +8,7 @@
 
 当用户A打开TicTacToe游戏的主页时，服务端的程序会：
 
-+ 调用`create_channel`创建为用户A创建一个channel，并将该channel的url嵌入到返回给用户的html页面代码中。
++ 调用`createChannel`创建为用户A创建一个channel，并将该channel的url嵌入到返回给用户的html页面代码中。
 + 生成一个加入游戏的连接，用户通过将此连接发送给其它用户B，其它用户B可以通过此连接加入用户A创建的游戏。
 
 每个页面对应的channel的name应该是独一无二的，比如可以使用用户id的字符串作为channel的name。
