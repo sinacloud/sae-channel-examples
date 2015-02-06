@@ -89,9 +89,9 @@ class GameUpdater
 	function send_update()
 	{
 		$message = $this->get_game_message();
-		$this->channel->send_message($this->game->userX.$this->game->key_name,$message);
+		$this->channel->sendMessage($this->game->userX.$this->game->key_name,$message);
 		if ($this->game->userO) {
-			$this->channel->send_message($this->game->userO.$this->game->key_name,$message);
+			$this->channel->sendMessage($this->game->userO.$this->game->key_name,$message);
 		}
 	}
 
