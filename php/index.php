@@ -32,7 +32,7 @@ if (!$game_key) {
 $game_link = '/?g='.$game_key;
 if ( $game ) {
 	$channel_instance = new SaeChannel();
-	$token = $channel_instance->create_channel($user.$game_key);
+	$token = $channel_instance->createChannel($user.$game_key);
 	$game_update_instance = new GameUpdater($game);
 	$initial_message = $game_update_instance->get_game_message();
 } else {
